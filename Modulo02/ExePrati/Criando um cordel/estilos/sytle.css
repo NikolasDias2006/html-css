@@ -65,8 +65,8 @@ section {
 }
 
 section.normal {
-     background-color: rgb(101, 96, 96);
-     color: white;
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
 }
 
 section.imagem {
