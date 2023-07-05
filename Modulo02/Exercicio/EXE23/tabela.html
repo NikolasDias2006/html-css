@@ -5,32 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/8067/8067984.png" type="image/x-icon">
     <title>Tabela</title>
+    <style>
+         body {
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+
+         table {
+            width: 90vw;
+            border-collapse: separate;
+         }
+
+         tr {
+             background-color: black;
+             color: white;
+         }
+
+        tr.linha {
+            background-color: white;
+            color: black;
+        }
+          
+         td {
+            border: 1px solid black;
+            padding: 8px;
+
+         }
+
+         td#cor {
+            background-color: yellow;
+            color: yellowgreen;
+         }
+
+
+
+    </style>
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
   <table>
         <tr>
-            <td>A1</td>
-            <td>B1</td>
-            <td>c1</td>
-        </tr>
-        <tr>
-            <td>A2</td>
-            <td>B2</td>
-            <td>c2</td>
-        </tr>
+            <td>A1
+            <td>B1
+            <td>c1
+
+        <tr class="linha">
+            <td>A2
+            <td>B2
+            <td>c2
+        
 
         <tr>
-            <td>A3</td>
-            <td>B3</td>
-            <td>C3</td>
-        </tr>
+            <td>A3
+            <td>B3
+            <td>C3
+        
 
         <tr>
-            <td>A4</td>
-            <td>B4</td>
-            <td>c4</td>
-        </tr>
+            <td id="cor">A4
+            <td>B4
+            <td>c4
+        
 
   </table>
 
