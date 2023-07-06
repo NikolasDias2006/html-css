@@ -21,6 +21,12 @@
                  width: 500px;
                  border-collapse: collapse;
             }
+
+            tbody > tr:nth-child(2n){
+                    background-color: lightgray;
+
+            }
+
             th,td {
                 border: 1px solid black;
                 padding: 10px;
@@ -34,6 +40,8 @@
             td.numeros {
                 text-align: right;
             }
+
+
         </style>
     </head>
     <body>
@@ -62,12 +70,28 @@
                  <td class="numeros">16 054 5244
                 </td>
             </tr>
+
+            <tr>
+                <td>Bahia</td>
+                 <td class="numeros">14 136 417</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                 <td class="numeros">11 443 208</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Sul</td>
+                 <td class="numeros">10 880 506</td>
+            </tr>
+
            </tbody>
 
             <tfoot>
                 <tr>
                     <th scope="row">Total de habitantes
-                    <td class="numeros"><strong>81.013.701</strong>
+                    <td class="numeros"><strong>117.473.832</strong>
                 </tr>
             </tfoot>
         </table>
