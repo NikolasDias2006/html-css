@@ -1,1 +1,1 @@
-os dados foram enviados,aprenda javascript para saber o que fazer com else..
+os dados foram enviados,aprenda javascript para saber o que fazer com eles..
