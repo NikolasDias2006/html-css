@@ -47,5 +47,6 @@
   /* END OF BASE STYLES */
   .container {
     display: flex;
+    justify-content: end;
     flex-direction: flex;
   }
